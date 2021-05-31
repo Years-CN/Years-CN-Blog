@@ -1,10 +1,16 @@
 ---
-title: "Sweet Pandas Eating Sweets"
+title: "Git所遇问题汇总"
 date: "2017-08-10"
 ---
+1：fatal: unable to access 'https://github.com/Years-CN/taro-music.git/': Failed to connect to github.com port 443: Timed out
 
-Pandas are really sweet.
+解决办法：取消代理
 
-Here's a video of a panda eating sweets.
+git config --global --unset http.proxy
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>
+git config --global --unset https.proxy
+
+2:	fatal: unable to access 'https://github.com/Years-CN/taro-music.git/': OpenSSL SSL_read: Connection was aborted, errno 10053
+
+解决办法：git config --global http.sslVerify "false"
+
