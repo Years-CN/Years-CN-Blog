@@ -1,6 +1,7 @@
 import React from "react"
 import { css } from "@emotion/core"
 import { Link } from "gatsby"
+import Pic from "../timg.jpg"
 
 export default ({ children }) => {
     // const data = useStaticQuery(
@@ -35,7 +36,7 @@ export default ({ children }) => {
                 align-items: center;
                 padding: 5px 0;
                 `}>
-            <img src="../timg.jpg"
+            <img src={Pic}
                 alt="me"
                 css={css`
                 width: 80px;
