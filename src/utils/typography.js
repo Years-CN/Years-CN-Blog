@@ -1,7 +1,12 @@
-import Typography from "typography"
-import kirkhamTheme from "typography-theme-kirkham"
+import Typography from 'typography'
+import altonTheme from 'typography-theme-alton'
+import CodePlugin from 'typography-plugin-code'
 
-const typography = new Typography(kirkhamTheme)
+altonTheme.plugins = [
+  new CodePlugin(),
+]
+
+const typography = new Typography(altonTheme)
 
 export default typography
 export const rhythm = typography.rhythm

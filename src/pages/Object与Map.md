@@ -30,7 +30,7 @@ WeakMap对象也是键值对的集合。但是它的**键必须是对象类型**
 与`Map`对象不同的是，`WeakMap`的键是不可枚举的。不提供列出其键的方法。列表是否存在取决于垃圾回收器的状态，是不可预知的。
 
 WeakMap对象的一个用例是存储一个对象的私有数据或隐藏实施细节。
-```
+```js
 const privates = new WeakMap();
 
 function Public() {
