@@ -1,6 +1,6 @@
 ---
 title: "Git所遇问题汇总"
-date: "2017-08-10"
+date: ""
 ---
 1：fatal: unable to access 'https://github.com/Years-CN/taro-music.git/': Failed to connect to github.com port 443: Timed out
 
