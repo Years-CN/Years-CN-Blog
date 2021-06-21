@@ -45,19 +45,42 @@ visibility:hidden 显示效果：元素消失，占据页面空间
 </div>
 
 opacity:0.1 显示效果：元素几乎消失(属性值设为0，会彻底消失)，占据页面空间，可用于元素动画效果
-<div style="width: 100px;
-  height: 100px;
-  margin: 10px;
-  background: #F87171;
-  border-radius: 10px;
-  opacity:0.1">
+<div style="
+  display:flex;
+  ">
+  <div>
+    <div style="width: 100px;
+      height: 100px;
+      margin: 10px;
+      background: #F87171;
+      border-radius: 10px;
+      opacity:0.1">
+    </div>
+    <div style="width: 100px;
+      height: 100px;
+      margin: 10px;
+      background: #F87171;
+      border-radius: 10px;">
+    </div>
+  </div>
+  
+  <div>
+    <div style="width: 100px;
+      height: 100px;
+      margin: 10px;
+      background: #F87171;
+      border-radius: 10px;
+      opacity:0">
+    </div>
+    <div style="width: 100px;
+      height: 100px;
+      margin: 10px;
+      background: #F87171;
+      border-radius: 10px;">
+    </div>
+  </div>
 </div>
-<div style="width: 100px;
-  height: 100px;
-  margin: 10px;
-  background: #F87171;
-  border-radius: 10px;">
-</div>
+
 
 
 

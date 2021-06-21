@@ -14,6 +14,7 @@ export default ({ data }) => {
           padding: 20px;
           display: flex;
           justify-content: center;
+          
           align-items: flex-start;
           `}
       >
